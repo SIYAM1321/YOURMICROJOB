@@ -1,0 +1,64 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.logo {
+    text-align: left; /* Align the logo to the left */
+    margin-bottom: 10px; /* Add some space below the logo */
+}
+
+.logo img {
+    width: 100px; /* Adjust the width of the logo as needed */
+    height: 100px; /* Set a fixed height to make it a square */
+    object-fit: cover; /* Maintain the aspect ratio and cover the container */
+    display: block; /* Remove extra space beneath the image */
+    margin: 0; /* Remove margin to prevent centering within its container */
+    border-radius: 50px;
+    border-radius: 50%; /* Make the image circular */
+}
+
+
+.navbar{
+    display: flex;
+    text-align: left;
+}
+
+.nav-list{
+   width: 50%;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+
+}
+.rightnav{
+    background-color: blueviolet;
+    width: 50%;
+    text-align: center;
+}
+
+.background {
+    background-image: url('img/background.jpg'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    /* Add any other styles or properties you may need */
+}
